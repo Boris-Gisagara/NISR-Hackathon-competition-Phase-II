@@ -1,0 +1,68 @@
+.custom-center {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.nav-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: #1d557a; /* Default color for nav-links */
+    background-color: #2fc2df;
+}
+
+.nav-link:hover {
+    color: #fff;
+    background-color: #0993af;
+}
+
+
+
+.active .nav-link,
+.nav-link.active {
+    color: #32d2fa !important; /* Color for active nav-link */
+    background-color: #1d557a !important; /* Background color for active nav-link */
+}
+.ml-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.navbar {
+    justify-content: center !important;
+}
+
+/* Add background color for the entire off-canvas sidebar */
+.offcanvas {
+    background-color: #2fc2df; /* Change to your preferred background color */
+}
+
+
+.custom-radio input:checked + label {
+    /* background-color: #007BFF; */
+    color: #000000;
+    border-color: #007BFF;
+}
+
+#open-offcanvas {
+    /* Add your custom styles here */
+    background-color:#43aff3; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Text alignment */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as a block element */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 4px; /* Optional: Add border radius */
+}
+
+#open-offcanvas:hover {
+    background-color: #2fdcdf; /* Darker green on hover */
+}
+
+.gradient-background {
+    background-image: linear-gradient(to right, #0ea1d2, rgb(87, 60, 221));
+  }
+
